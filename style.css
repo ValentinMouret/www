@@ -1,5 +1,25 @@
+/* LESS */
+
 html {
     font-family: Helvetica;
+}
+
+p {
+    text-align: justify;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'EB Garamond', serif;
+    letter-spacing: -1.5px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 0px;
 }
 
 div#content {
@@ -8,10 +28,6 @@ div#content {
     margin-right: auto;
 }
 
-iframe {
-    border: none;
-}
-
-p {
-    text-align: justify;
+.spacer {
+    height: 500px;
 }
