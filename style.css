@@ -33,4 +33,5 @@ div#content {
 
 #portrait {
     transform: rotate(1deg);
+    border-radius: 0.4em;
 }
