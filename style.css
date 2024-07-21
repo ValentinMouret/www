@@ -1,23 +1,33 @@
+:root {
+    --color-main: #32a852;
+    --color-highlight: #4bc96d;
+    --color-fainted: #66b77d;
+}
+
 html {
-    font-family: Helvetica;
-}
-
-p {
-    text-align: justify;
-}
-
-h1, h2, h3, h4 {
-    font-family: 'EB Garamond', serif;
-    letter-spacing: -1.5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
 }
 
 h1 {
-    font-size: 28px;
+    font-size: 2em;
 }
 
 h2 {
-    font-size: 24px;
     margin-bottom: 0px;
+    margin-top: 2em;
+}
+
+a {
+    color: var(--color-main);
+}
+
+a:visited {
+    color: var(--color-fainted);
+}
+
+a:hover {
+    color: var(--color-highlight);
 }
 
 div#content {
@@ -32,6 +42,13 @@ div#content {
 }
 
 #portrait {
-    transform: rotate(1deg);
     border-radius: 0.4em;
+    margin-right: 2em;
+}
+
+#id-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
