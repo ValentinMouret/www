@@ -1,0 +1,30 @@
+/* Shared shell for generated article pages. */
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: min(90%, 800px);
+    margin: 30px auto 0;
+}
+
+.site-header a {
+    text-decoration: none;
+}
+
+.site-name {
+    color: inherit;
+    font-weight: 700;
+}
+
+.site-nav {
+    display: flex;
+    gap: 1em;
+}
+
+.site-nav a {
+    color: var(--color-main);
+}
+
+.article {
+    padding-top: 1.5em;
+}
